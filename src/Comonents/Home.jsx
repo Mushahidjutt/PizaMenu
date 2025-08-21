@@ -76,14 +76,7 @@ export default function Home() {
                         className="flex gap-4 py-2 "
                         >
                             <img className='h-28' src={pizzas.imageUrl} alt={pizzas.name} />
-                            <div className='flex flex-col gap-y-2  items-start'>
-                                <h2 className='font-bold'> {pizzas.name} </h2>
-                                <p>  {pizzas.ingredients.join(",")}</p>
-                                <span className='font-bold'> $ {pizzas.unitPrice}</span>
-                               
-                               
-                               
-                            </div>
+                            
                         </li>
                         
                     ))}
