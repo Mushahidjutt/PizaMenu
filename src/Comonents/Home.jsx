@@ -89,7 +89,7 @@ export default function Home() {
                     ))}
                  </ul>
 
-                 <p className='mt-16'>We're open from 12:00 to 22:00. Come visit us or order online.</p>
+                 
 
                  <button className='border-b-amber-300 mt-10 bg-amber-400 p-3 rounded cursor-pointer mb-16 border-b-0'>Order Now</button>
         </main>
